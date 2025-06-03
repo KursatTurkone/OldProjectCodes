@@ -15,7 +15,6 @@ public class GroupControll : MonoBehaviour
     [SerializeField] private GameObject _unitPrefab;
     [SerializeField] private float _unitSpeed = 2;
     [SerializeField] private int MoveForce;
-  //  [SerializeField] private FloatVariableHolder CurrentWeight;
     private FormationBase _formation;
     private FloatingJoystick _joystick;
     private bool _returnPos;
